@@ -288,3 +288,13 @@ Project04-RedTeam-C2/
 ---
 
 *All testing conducted in an isolated VMware lab environment for educational purposes only.*
+
+---
+
+## Legal Disclaimer
+
+This project was created in a private virtual lab environment for educational, research, and defensive cybersecurity purposes only.
+
+No testing was performed against systems without explicit authorization.
+
+The techniques, tools, and procedures documented in this repository are intended solely for learning and improving cybersecurity knowledge. The author does not encourage or condone unauthorized access to any computer system or network.
