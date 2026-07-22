@@ -24,7 +24,7 @@ T1566 · T1071.001 · T1087 · T1069 · T1558.003 · T1068 · T1021 · T1003.006
 
 💡 Biggest learning: BloodHound is just as powerful as a DEFENSIVE tool. If your blue team isn't running it quarterly to audit your own AD, attackers already have a map you don't.
 
-🔗 Full project, screenshots & report → github.com/rithika-ujjalsingh/IT-Support-Portfolio-7-Projects
+🔗 Full project, screenshots & report → https://github.com/rithika-ujjalsingh/Full-Red-Team-C2-Infrastructure.git
 
 This is Project 04 of 30 in my RIVI Enterprises Elite Portfolio System. Building from IT Support foundations all the way through advanced red team operations.
 
