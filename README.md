@@ -37,13 +37,13 @@ A full-scope red team engagement simulating a sophisticated threat actor targeti
 ║          VMware Workstation — Host-Only Network              ║
 ║                  192.168.100.0/24                            ║
 ║                                                              ║
-║  ┌─────────────────────┐    ┌────────────────────────────┐  ║
-║  │   Kali Linux 2026   │    │   Windows Server 2019      │  ║
-║  │   (Attacker / C2)   │◄──►│   (Domain Controller)      │  ║
-║  │   192.168.100.102   │    │   DC01.corp.local          │  ║
-║  │   Sliver C2 :8443   │    │   192.168.100.10           │  ║
-║  │   BloodHound CE     │    │   corp.local               │  ║
-║  └──────────┬──────────┘    └────────────────────────────┘  ║
+║  ┌─────────────────────┐    ┌────────────────────────────┐   ║
+║  │   Kali Linux 2026   │    │   Windows Server 2019      │   ║
+║  │   (Attacker / C2)   │◄──►│   (Domain Controller)      │   ║
+║  │   192.168.100.102   │    │   DC01.corp.local          │   ║
+║  │   Sliver C2 :8443   │    │   192.168.100.10           │   ║
+║  │   BloodHound CE     │    │   corp.local               │   ║
+║  └──────────┬──────────┘    └────────────────────────────┘   ║
 ║             │                           ▲                    ║
 ║             ▼                           │                    ║
 ║  ┌─────────────────────┐                │                    ║
