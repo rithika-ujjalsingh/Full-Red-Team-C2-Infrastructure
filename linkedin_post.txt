@@ -1,0 +1,31 @@
+🛡️ Project 04 Complete — Full Red Team C2 Infrastructure Simulation
+
+6-7 days of intensive hands-on work in my VMware home lab, and Project 04 of my cybersecurity portfolio is done!
+
+This was my most advanced project yet — a full red team engagement against an isolated Active Directory environment (corp.local) using professional-grade tooling.
+
+🔴 What I built and demonstrated:
+
+✅ Sliver C2 Framework (v1.5.42) — configured HTTP C2 infrastructure, generated a Windows x64 implant, established a persistent session (LITTLE_ENVIRONMENT) on a Windows 11 target
+
+✅ Privilege Escalation to NT AUTHORITY\SYSTEM — exploited SeImpersonatePrivilege to elevate from standard user to SYSTEM, running two concurrent C2 sessions
+
+✅ Active Directory Enumeration — discovered 12 domain users, identified Domain Admins (Administrator, sadmin), found kerberoastable service accounts (sqlsvc, krbtgt)
+
+✅ SharpHound + BloodHound CE — collected 319 AD objects in under 7 seconds, imported into BloodHound Community Edition v9.4.0, mapped attack paths to Domain Admin
+
+✅ Full Pentest Report — 20+ page professional red team report with MITRE ATT&CK mapping, severity-rated findings, and defensive recommendations
+
+🗺️ MITRE ATT&CK techniques covered:
+T1566 · T1071.001 · T1087 · T1069 · T1558.003 · T1068 · T1021 · T1003.006
+
+🔬 Lab: VMware Workstation (isolated)
+→ Kali Linux 2026.1 | Windows Server 2019 (DC01/corp.local) | Windows 11 x64
+
+💡 Biggest learning: BloodHound is just as powerful as a DEFENSIVE tool. If your blue team isn't running it quarterly to audit your own AD, attackers already have a map you don't.
+
+🔗 Full project, screenshots & report → github.com/rithika-ujjalsingh/IT-Support-Portfolio-7-Projects
+
+This is Project 04 of 30 in my RIVI Enterprises Elite Portfolio System. Building from IT Support foundations all the way through advanced red team operations.
+
+#CyberSecurity #RedTeam #EthicalHacking #ActiveDirectory #SliverC2 #BloodHound #Kerberoasting #MITREATTACK #PenTesting #HomeLab #KaliLinux #InfoSec #CyberPortfolio #LearningInPublic #ITSecurity #OSCP

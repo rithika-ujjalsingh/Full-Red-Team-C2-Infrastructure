@@ -1,0 +1,70 @@
+# ============================================================
+# Project 04 — Red Team C2 Infrastructure
+# .gitignore — DO NOT commit sensitive files
+# ============================================================
+
+# ─── NEVER commit actual implants or binaries ───────────────
+*.exe
+*.dll
+*.bin
+*.elf
+implant*
+payload*
+beacon*
+
+# ─── BloodHound data (may contain real AD info) ─────────────
+*.zip
+*bloodhound*
+*sharphound*
+*.json
+!package.json
+
+# ─── Sliver artifacts ────────────────────────────────────────
+*.svc
+sliver-server
+/tmp/
+
+# ─── Credentials / secrets ───────────────────────────────────
+*.env
+.env*
+secrets*
+credentials*
+passwords*
+hashes*
+*.hash
+*.ntds
+
+# ─── Python ──────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+*.egg-info/
+
+# ─── OS files ────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─── Editor files ────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ─── Logs ────────────────────────────────────────────────────
+*.log
+logs/
+
+# ─── What IS committed ──────────────────────────────────────
+# ✅ README.md
+# ✅ SECURITY.md
+# ✅ CHANGELOG.md
+# ✅ .gitignore
+# ✅ report/RedTeam_Report_Project04.pdf
+# ✅ screenshots/*.png
+# ✅ scripts/generate_report.py
